@@ -79,7 +79,7 @@ public class sittings<l> extends JPanel{//implements Runnable {
             if (type.equalsIgnoreCase("Заруск")) {
                 getClass().getProtectionDomain().getCodeSource().getLocation().getPath();
 
-                tok.clear();
+                //tok.clear();
 
                 tok.add("1c7bf4037758e1af273e4711bd1c87c388c58202b43d402011dc01dcbf1ec7a6c9e4c379b64aca61c81e67");
                 if(types.isSelected())tok.add("dfe035c450ec4f467cb594b30f6468d4daa651521218a1ad6845283ed328bd490745b6c5257218e39e285_362463933");
